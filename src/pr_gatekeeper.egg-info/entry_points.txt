@@ -1,0 +1,2 @@
+[console_scripts]
+pr-gatekeeper = pr_gatekeeper.cli:main

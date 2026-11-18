@@ -1,0 +1,12 @@
+# Override any default from pr_gatekeeper.config.Config
+max_changed_lines: 40
+max_files: 4
+llm_min_confidence: 0.85
+never_auto_approve_authors: []
+allowed_base_branches: [main]
+sensitive_paths:
+  - ".github/**"
+  - "**/auth/**"
+  - "**/payments/**"
+  - "**/migrations/**"
+  - "**/*.tf"
